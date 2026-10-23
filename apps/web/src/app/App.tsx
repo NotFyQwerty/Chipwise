@@ -1,5 +1,6 @@
-import { APP_NAME } from "@/shared/config";
+import { RouterProvider } from "react-router";
+import { router } from "./router";
 
 export default function App() {
-  return <h1>{APP_NAME}</h1>;
+  return <RouterProvider router={router} />;
 }
